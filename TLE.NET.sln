@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TLE.NET", "TLE.NET\TLE.NET.csproj", "{01E21344-B7E6-4FC1-B561-546AC7820E7E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{FA0B900A-2AE9-4DBF-8309-184F33CC02DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{01E21344-B7E6-4FC1-B561-546AC7820E7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01E21344-B7E6-4FC1-B561-546AC7820E7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01E21344-B7E6-4FC1-B561-546AC7820E7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA0B900A-2AE9-4DBF-8309-184F33CC02DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA0B900A-2AE9-4DBF-8309-184F33CC02DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA0B900A-2AE9-4DBF-8309-184F33CC02DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA0B900A-2AE9-4DBF-8309-184F33CC02DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
