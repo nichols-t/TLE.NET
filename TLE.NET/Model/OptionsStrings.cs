@@ -11,11 +11,11 @@ namespace TLE.NET.Model
     /// </summary>
     public sealed class OptionsStrings
     {
-        public static string Search = "search";
-        public static string Prn = "prn";
-        public static string Sort = "sort";
-        public static string SortDir = "sort-dir";
-        public static string Page = "page";
-        public static string PageSize = "page-size";
+        public static readonly string Search = "search";
+        public static readonly string Prn = "prn";
+        public static readonly string Sort = "sort";
+        public static readonly string SortDir = "sort-dir";
+        public static readonly string Page = "page";
+        public static readonly string PageSize = "page-size";
     }
 }

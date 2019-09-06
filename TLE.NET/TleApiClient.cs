@@ -17,7 +17,7 @@ namespace TLE.NET
         /// <summary>
         /// This is the base API URL that all calls to the NASA TLE Api should use.
         /// </summary>
-        const string baseUrl = @"https://data.ivanstanojevic.me/api/tle";
+        private const string baseUrl = @"https://data.ivanstanojevic.me/api/tle";
 
         /// <summary>
         /// Restsharp client object. This object does the actual API access.
@@ -47,7 +47,7 @@ namespace TLE.NET
 
             if (response.ErrorException != null)
             {
-                const string message = "Error response. Check inner exception for more details.";
+                var message = "Error response. Check inner exception for more details.";
                 throw new ApplicationException(message, response.ErrorException);
             }
 
