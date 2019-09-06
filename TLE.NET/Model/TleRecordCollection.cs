@@ -44,6 +44,12 @@ namespace TLE.NET.Model
         public List<TleRecord> Member { get; set; }
 
         /// <summary>
+        /// The query parameters that were used in the request that returned this response.
+        /// </summary>
+        [DeserializeAs(Name = "parameters")]
+        public TleRecordCollectionOptions Parameters { get; set; }
+
+        /// <summary>
         /// A TleView object that handles paginating the response data.
         /// </summary>
         [DeserializeAs(Name = "view")]

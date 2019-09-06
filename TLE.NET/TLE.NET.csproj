@@ -50,7 +50,7 @@
     <Compile Include="Model\TleRecordCollection.cs" />
     <Compile Include="Model\TleRecordCollectionOptions.cs" />
     <Compile Include="Model\TleView.cs" />
-    <Compile Include="TleApi.cs" />
+    <Compile Include="TleApiClient.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

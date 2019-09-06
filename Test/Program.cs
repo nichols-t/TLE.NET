@@ -16,7 +16,7 @@ namespace Test
         static void Main(string[] args)
         {
             // Create a new API object
-            var tleApi = new TleApi();
+            var tleApi = new TleApiClient();
             var mir = tleApi.GetTleRecord(11416);
             Console.WriteLine(mir.Name);
 

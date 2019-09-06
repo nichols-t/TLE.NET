@@ -34,7 +34,7 @@ namespace TLE.NET.Model
         [SerializeAs(Name = "page")]
         public int? Page { get; set; }
         /// <summary>
-        /// The number of records to return on a page. Default is 50. 
+        /// The number of records to return on a page. Default is 20. 
         /// </summary>
         [SerializeAs(Name = "page-size")]
         public int PageSize { get; set; }

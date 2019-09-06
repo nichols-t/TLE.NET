@@ -12,7 +12,7 @@ namespace TLE.NET
     /// <summary>
     /// Proxy class to access the NASA TLE Api.
     /// </summary>
-    public class TleApi
+    public class TleApiClient
     {
         /// <summary>
         /// This is the base API URL that all calls to the NASA TLE Api should use.
@@ -27,7 +27,7 @@ namespace TLE.NET
         /// <summary>
         /// Initializes the RestSharp Client.
         /// </summary>
-        public TleApi()
+        public TleApiClient()
         {
             client = new RestClient(baseUrl);
         }
@@ -66,15 +66,15 @@ namespace TLE.NET
 
             return Execute<TleRecord>(request);
         }
-        
+
         /// <summary>
         /// Returns a collection of TLE records with default pagination.
         /// </summary>
         /// <param name="options">The query parameters for the collection request.</param>
         /// <returns>A TleRecordCollection.</returns>
-        public TleRecordCollection GetAllTleRecords(TleRecordCollectionOptions options)
+        public TleRecordCollection GetAllTleRecords(TleRecordCollectionOptions options = null)
         {
-            var request = CreateRequest(options);
+            RestRequest request = CreateRequest(options);
 
             return Execute<TleRecordCollection>(request);
         }
